@@ -1,66 +1,71 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<h1>Hospital Appointment Management System</h1>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Anggota Kelompok
 
-## About Laravel
+**Pemrograman Website - C**
+1. Saqina Salsabila Larasati    -   [215150200111070]
+2. Nadhira Nurannisa            -   [215150207111017]
+3. Julia Nur Fajrina            -   [215150201111039]
+4. Verizca Maudia Putri         -   [215150207111088]
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Tugas Akhir Pemrograman Website
+Nama Website : Warehouse Of Books
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Warehouse Of Books adalah sebuah website yang dirancang khusus untuk membantu pengguna dalam 
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### 1. Role Pasien:
+![ss beranda](https://github.com/tsabitamuthia/appointme/assets/97678433/13c3e94b-ec3d-45dd-99c5-ac86a1b406eb)
 
-## Learning Laravel
+Sebagai pasien di AppointMe, Anda memiliki akses untuk melakukan pendaftaran antrian dokter, melihat daftar dokter, riwayat antrian, dan daftar poli yang tersedia. Berikut adalah fitur-fitur yang tersedia untuk Anda:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Registrasi Pasien: Fitur registrasi pada website AppointMe memungkinkan calon pasien untuk membuat akun baru. 
+- Login Pasien: Fitur login pada website AppointMe memungkinkan pasien yang telah terdaftar untuk masuk ke akun pribadinya dan tertuju ke halaman beranda yang berisi informasi umum dari website AppointMe. Pasien dapat mengakses semua halaman apabila telah melakukan login terlebih dahulu.
+- Pendaftaran Antrian Dokter: Anda dapat melakukan pendaftaran antrian dokter secara online. Fitur ini memungkinkan Anda untuk memilih dokter yang diinginkan, melihat jadwal ketersediaan, dan memilih waktu kunjungan yang sesuai.
+- Daftar Dokter: Anda dapat melihat daftar dokter yang tersedia di rumah sakit. Fitur ini memberikan informasi tentang spesialisasi dokter, jadwal kerja, dan informasi profil lainnya.
+- Riwayat Antrian: Anda dapat melihat riwayat antrian Anda, termasuk detail janji temu sebelumnya, status antrian (sedang diperiksa, selesai, dll.), dan catatan medis yang relevan. Hal ini memudahkan Anda dalam mengakses informasi kunjungan sebelumnya.
+- Daftar Poli: Anda dapat melihat daftar poli yang tersedia di rumah sakit. Fitur ini memberikan informasi tentang poli spesifik, jadwal ketersediaan, dan dokter yang terkait dengan poli tersebut.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### 2. Role Admin:
+![dashboard](https://github.com/tsabitamuthia/appointme/assets/97678433/88c3bc10-1d33-4fc4-872e-55c41eda8a1b)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+Sebagai admin di AppointMe, Anda memiliki akses penuh untuk mengelola sistem antrian dan tabel data yang terkait. Berikut adalah fitur-fitur yang tersedia untuk Anda:
+- Login: Fitur Login pada admin memungkinkan admin untuk langsung tertuju ke halaman dashboard dengan menu jumlah antrean, jumlah pasien, jumlah dokter, dan jumlah poli.
+- Manajemen Tabel Pasien: Anda dapat melakukan operasi CRUD (Create, Read, Update, Delete) terhadap data pasien. Anda dapat menambahkan pasien baru, melihat daftar pasien, mengubah informasi pasien, dan menghapus data pasien jika diperlukan.
+- Manajemen Tabel Dokter: Anda dapat mengelola data dokter yang terdaftar di rumah sakit. Fitur ini memungkinkan Anda untuk menambahkan dokter baru, melihat daftar dokter beserta informasi spesialisasi dan jadwal kerja, mengubah informasi dokter, dan menghapus data dokter jika diperlukan.
+- Manajemen Tabel Poli: Anda dapat mengelola daftar poli yang tersedia di rumah sakit. Fitur ini memungkinkan Anda untuk menambahkan poli baru, melihat daftar poli yang tersedia, mengubah informasi poli, dan menghapus data poli jika diperlukan.
+- Laporan dan Statistik: Anda dapat menghasilkan laporan dan statistik terkait jumlah antrean, jumlah pasien, jumlah dokter, dan jumlah poli.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+AppointMe membantu mempercepat dan mengoptimalkan proses pendaftaran dan manajemen antrian di rumah sakit. Dengan fitur-fitur yang disesuaikan untuk admin dan pasien, website ini memudahkan koordinasi antara rumah sakit, dokter, dan pasien untuk memastikan pengalaman yang lancar dan efisien dalam perawatan medis.
 
-### Premium Partners
+## Lampiran Beberapa *Screenshot*
+### Pasien
+**1. Login**
+![login](https://github.com/tsabitamuthia/appointme/assets/97678433/018d0d9c-7ec0-4c20-a554-496d9d2af1e7)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
 
-## Contributing
+**3. Daftar Dokter**
+![dokters](https://github.com/tsabitamuthia/appointme/assets/97678433/5e1c70dd-f449-411b-9107-13834cefe042)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+**4. Buat Janji**
+![janji](https://github.com/tsabitamuthia/appointme/assets/97678433/941ece16-222d-441e-aa1e-3c1444bb0db2)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
+### Admin
+**1. Data Pasien**
+![pasien](https://github.com/tsabitamuthia/appointme/assets/97678433/11e82124-01e2-4f02-9d99-84c676b0682f)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
+**2. Detail Pasien**
+![detail](https://github.com/tsabitamuthia/appointme/assets/97678433/fc386930-dddb-4be9-b2ce-7070d9606d30)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Installation
+- `git clone <URL HTTPS Github>`
+- `cd .../appointme`
+- `composer install`
+- `cp .env.example .env`
+- Ubah ke `.env`
+- `php artisan key:generate`
+- Buat database `appointme` di PHP MyAdmin
+- `php artisan migrate`
